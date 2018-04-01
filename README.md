@@ -7,8 +7,12 @@ This of tutorails will provide you the sample code for your first start with Jer
 
 ##  started
 
-You may need some knowledge relate the Java Programming language for being with this frameworks.
-- Restful Concepts,
+You may require to know some knowledge,
+- Java Programming
+- Build tools(maven)
+- Restful Concepts
+- Client tools test(CURL,POSTMAN,etc)
+
 
 ## Jersey Description
 
