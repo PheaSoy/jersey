@@ -16,8 +16,8 @@ You may require to know some knowledge,
 
 ## Jersey Description
 
-- @Path: provide the path of your 
-- @PathParams("params"):
+- @Path: This defines the resource base URI.
+- @PathParams("params"):This annotation injects the parameters into the path, contact id in this case, to the method parameter. Other available annotations are @FormParam, @QueryParam, and so on.
 - @Consumes: define media type accept request such as (application/XML, application/json,etc)
 - @Produces: define media type of your response to the client request such as (application/XML, application/json,etc)
 
