@@ -8,14 +8,14 @@ This of tutorails will provide you the sample code for your first start with Jer
 ##  started
 
 You may need some knowledge relate the Java Programming language for being with this frameworks.
-Concept with Restful,
+- Restful Concepts,
 
-HTTP Verb: POST,PUT,DELETE,GET
+## Jersey Description
 
-@Path: provide the path of your 
-@PathParams("params"):
-@Consumes: define media type accept request such as (application/XML, application/json,etc)
-@Produces: define media type of your response to the client request such as (application/XML, application/json,etc)
+- @Path: provide the path of your 
+- @PathParams("params"):
+- @Consumes: define media type accept request such as (application/XML, application/json,etc)
+- @Produces: define media type of your response to the client request such as (application/XML, application/json,etc)
 
 
 ## Reference 
