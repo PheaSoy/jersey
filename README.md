@@ -27,3 +27,58 @@ You may require to know some knowledge,
 - [REST API with Jersey and Spring](http://www.baeldung.com/jersey-rest-api-with-spring)
 - [Restful Specs](http://www.restapitutorial.com)
 
+# Let's start
+1. Create Dynamic Web Project in Eclipse. File -> New -> Dynamic Web Project, put your project name.
+2. Click on Your project -> Configure -> Convert to Maven Project.
+
+Add your dependencies in pom file
+
+---- 
+
+    <properties>
+        <springframework.version>4.3.0.RELEASE</springframework.version>
+        <jackson.library>2.7.5</jackson.library>
+    </properties>
+ 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${springframework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>${springframework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${springframework.version}</version>
+        </dependency>
+ 
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.library}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-xml</artifactId>
+            <version>${jackson.library}</version>
+        </dependency>
+    </dependencies>
+ 
+----
+
+
+After adding your dependencies please click on project Maven Update.
+Ceate the Tomcat Server in your IDE.
+Click Run -> Your project as Server.
+
+
